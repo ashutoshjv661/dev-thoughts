@@ -1,0 +1,19 @@
+{
+  "name": "dev-thoughts",
+  "version": "1.0.0",
+  "description": "Random thoughts manager CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashutosh Jadhav",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "inquirer": "^9.1.4",
+    "mongoose": "^6.7.1"
+  },
+  "type": "module"
+}

@@ -14,6 +14,9 @@ npm install
 ``` bash
 dev-thoughts --help
 ```
+## Pre-requisite :
+Install and run mongodb instance in background
+https://www.mongodb.com/docs/manual/administration/install-community/
 
 ## Features
 

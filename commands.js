@@ -13,7 +13,7 @@ const questions =  [
     }
 ];
 
-program.version("1.0.2")
+program.version("1.0.3")
 .description("Random thoughts manager CLI");
 
 

@@ -1,6 +1,6 @@
 {
   "name": "dev-thoughts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Random thoughts manager CLI",
   "main": "index.js",
   "preferGlobal": true,

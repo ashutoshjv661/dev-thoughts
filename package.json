@@ -10,6 +10,10 @@
   },
   "author": "Ashutosh Jadhav",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashutoshjv661/dev-thoughts.git"
+  },
   "bugs": {
     "url": "https://github.com/ashutoshjv661/dev-thoughts/issues"
   },

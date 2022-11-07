@@ -34,3 +34,12 @@ https://www.mongodb.com/docs/manual/administration/install-community/
 - inquirer : to ask questions
 
 
+## For testing :
+use 
+```
+npm link
+```
+and 
+``` 
+npm unlink
+```

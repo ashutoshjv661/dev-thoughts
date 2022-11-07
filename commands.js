@@ -2,7 +2,7 @@
 
 import {program} from "commander";
 import inquirer from "inquirer";
-import { addThought,listThoughtsToday,removeThought,updateThought,randomThought } from "./index.js";
+import { addThought,listThoughtsToday,removeThought,updateThought,randomThought,clearThoughts,getAllThoughts } from "./index.js";
 
 //List of questions to ask while entering and deleting the Thoughts on a particular day
 const questions =  [
@@ -13,7 +13,7 @@ const questions =  [
     }
 ];
 
-program.version("1.0.0")
+program.version("1.0.1")
 .description("Random thoughts manager CLI");
 
 
@@ -25,7 +25,7 @@ program.command('add')
             .then(ans => addThought(ans.thought))
             .catch((error) => {
                 if(error){
-                    console.info("Something went wrong !");
+                    console.info("Something went wrong !",error);
                      process.exit();
                 }
             });
@@ -54,10 +54,10 @@ program.command('update <_id>')
   });
 
 // Remove Command
-program.command('remove <_id>')
+program.command('remove <id>')
   .alias('r')
   .description('Remove a thought.')
-  .action(_id => removeThought(_id));
+  .action( id => removeThought(id));
 
 
 program.command('quote')
@@ -66,4 +66,19 @@ program.command('quote')
   .action(()=>{
       randomThought();
   });
+
+program.command('clear')
+  .alias('clr')
+  .description("Clear the entire list")
+  .action(()=>{
+    clearThoughts();
+  });
+
+program.command('all')
+  .description("Get the entire list of thoughts")
+  .action(()=>{
+    getAllThoughts();
+  });
+
+
 program.parse(process.argv);

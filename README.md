@@ -27,7 +27,6 @@ dev-thoughts --help
 
 ## Packages used :
 - commander : parsing args
-- mongoose : orm for mongodb ❌ Removed Mongodb dependency in v1.0.1
 - inquirer : to ask questions
 
 

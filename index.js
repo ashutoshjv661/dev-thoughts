@@ -1,4 +1,3 @@
-import mongoose, { mongo } from "mongoose";
 import fs from "fs"
 
 const loadJSON = (path) => JSON.parse(fs.readFileSync(new URL(path, import.meta.url)));

@@ -1,7 +1,7 @@
 # dev-thoughts 😇:smile:
 
 ## :point_down: demo
-<img width="887" alt="demo" src="https://user-images.githubusercontent.com/31470393/200178413-7c765e16-cec7-4f92-94cc-29b256489ce6.png">
+<img width="70%" alt="demo" src="https://user-images.githubusercontent.com/31470393/200264301-15ec7ac4-08a7-48e6-ab71-664a7830f625.png">
 
 
 ## :floppy_disk: Installation

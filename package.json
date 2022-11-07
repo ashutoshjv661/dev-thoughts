@@ -9,11 +9,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashutosh Jadhav",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashutoshjv661/dev-thoughts/issues"
+  },
   "dependencies": {
     "commander": "^9.4.1",
-    "inquirer": "^9.1.4",
-    "mongoose": "^6.7.1"
+    "inquirer": "^9.1.4"
   },
   "type": "module"
 }

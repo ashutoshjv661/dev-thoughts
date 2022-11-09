@@ -23,7 +23,7 @@ dev-thoughts --help
 4. Delete thoughts of that day, clear all thoughts ✅
 5. storing data in json format ✅
 6. Using figlet,chalk to beautify UI
-6. host npm module 
+6. host on npm registry ✅
 
 ## Packages used :
 - commander : parsing args
